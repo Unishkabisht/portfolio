@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Unishka Bisht — Portfolio</title>
+  <meta name="description" content="Unishka Bisht — BCA Student, Full Stack Developer from Haldwani, India. Building things that live on the internet." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet"/>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════ NAVIGATION ═══════════════════ -->
+  <nav id="navbar">
+    <header>
+      <h1><a href="#hero">UB</a></h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="hamburger" aria-label="Toggle menu">
+        <b></b><b></b><b></b>
+      </button>
+    </header>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <aside id="mobile-menu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </aside>
+
+  <!-- ═══════════════════ HERO ═══════════════════ -->
+  <section id="hero">
+    <article class="hero-content">
+
+      <main>
+        <p class="hero-greeting">Hello, I'm</p>
+        <h2 class="hero-name">
+          Unishka
+          <em>Bisht</em>
+        </h2>
+        <p class="hero-typewriter" id="typewriter-text"><b>|</b></p>
+        <p class="hero-bio">
+          BCA Student · Haldwani — Building things that live on the internet.
+          From code to curiosity — always creating, always learning.
+        </p>
+        <menu class="hero-buttons">
+          <li><a href="#projects" class="btn-primary">View My Work <i class="fas fa-arrow-right"></i></a></li>
+          <li><a href="#contact" class="btn-secondary">Let's Talk</a></li>
+        </menu>
+
+      </main>
+
+      <figure class="hero-image">
+        <img src="assets/profile.jpg" alt="Unishka Bisht" />
+        <mark class="float-tag tag-1"><i class="fas fa-code"></i> Full Stack</mark>
+        <mark class="float-tag tag-2"><i class="fas fa-brain"></i> Problem Solver</mark>
+        <mark class="float-tag tag-3"><i class="fas fa-star"></i> Open Source</mark>
+      </figure>
+
+    </article>
+  </section>
+
+  <!-- ═══════════════════ ABOUT ═══════════════════ -->
+  <section id="about">
+    <article class="section-inner reveal">
+      <small class="section-label">About Me</small>
+      <h2 class="section-title">The Mind Behind <em>the Code</em></h2>
+
+      <article class="about-grid">
+        <figure class="about-image">
+          <img src="assets/profile.jpg" alt="Unishka Bisht" />
+        </figure>
+
+        <main>
+          <p class="about-intro">
+            I'm <strong>Unishka Bisht</strong>, a BCA student from Haldwani, India —
+            passionate about crafting meaningful digital experiences. I believe
+            in building things that are not just functional, but beautiful and purposeful.
+          </p>
+          <p class="about-body">
+            My journey started with pure curiosity — a desire to understand how websites come alive.
+            Today I work across HTML, CSS, JavaScript, and Node.js, constantly pushing my boundaries.
+            I document my learnings, solve problems on LeetCode, and ship projects that solve real needs.
+          </p>
+          <p class="about-body">
+            When I'm not coding, I'm exploring new technologies, reading about system design,
+            and building my developer identity one commit at a time.
+          </p>
+
+          <dl class="about-details">
+            <dt>Location</dt><dd><i class="fas fa-map-marker-alt"></i> Haldwani, Uttarakhand, India</dd>
+            <dt>Education</dt><dd><i class="fas fa-graduation-cap"></i> Bachelor of Computer Applications</dd>
+            <dt>GitHub</dt><dd><i class="fab fa-github"></i> <a href="https://github.com/Unishkabisht" target="_blank">github.com/Unishkabisht</a></dd>
+            <dt>Active Since</dt><dd><i class="fas fa-calendar-alt"></i> On GitHub since Nov 2024</dd>
+          </dl>
+
+          <a href="#resume" class="btn-primary">View Resume <i class="fas fa-file-alt"></i></a>
+        </main>
+      </article>
+    </article>
+  </section>
+
+  <!-- ═══════════════════ SKILLS ═══════════════════ -->
+  <section id="skills">
+    <article class="section-inner reveal">
+      <small class="section-label">Expertise</small>
+      <h2 class="section-title">Skills &amp; <em>Technologies</em></h2>
+
+      <ul class="skills-grid">
+        <li>
+          <i class="fas fa-paint-brush cat-icon"></i>
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Flexbox</li>
+            <li>CSS Grid</li>
+            <li>Responsive Design</li>
+          </ul>
+        </li>
+        <li>
+          <i class="fas fa-server cat-icon"></i>
+          <h3>Backend</h3>
+          <ul>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>REST APIs</li>
+            <li>JSON</li>
+          </ul>
+        </li>
+        <li>
+          <i class="fas fa-code cat-icon"></i>
+          <h3>Languages</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>C++</li>
+            <li>HTML/CSS</li>
+          </ul>
+        </li>
+        <li>
+          <i class="fas fa-tools cat-icon"></i>
+          <h3>Tools &amp; Platforms</h3>
+          <ul>
+            <li>Git &amp; GitHub</li>
+            <li>VS Code</li>
+            <li>Vercel</li>
+            <li>LeetCode</li>
+            <li>Postman</li>
+          </ul>
+        </li>
+      </ul>
+
+      <ol class="skill-bars">
+        <li>
+          <label>HTML &amp; CSS <data value="88">88%</data></label>
+          <progress value="88" max="100">88%</progress>
+        </li>
+        <li>
+          <label>JavaScript <data value="72">72%</data></label>
+          <progress value="72" max="100">72%</progress>
+        </li>
+        <li>
+          <label>Node.js / Express <data value="65">65%</data></label>
+          <progress value="65" max="100">65%</progress>
+        </li>
+        <li>
+          <label>C++ / DSA <data value="60">60%</data></label>
+          <progress value="60" max="100">60%</progress>
+        </li>
+        <li>
+          <label>Git &amp; GitHub <data value="80">80%</data></label>
+          <progress value="80" max="100">80%</progress>
+        </li>
+      </ol>
+    </article>
+  </section>
+
+  <!-- ═══════════════════ PROJECTS ═══════════════════ -->
+  <section id="projects">
+    <article class="section-inner reveal">
+      <small class="section-label">Portfolio</small>
+      <h2 class="section-title">Featured <em>Projects</em></h2>
+      <p class="section-subtitle">A curated selection of things I've built — each one a new challenge, a new lesson.</p>
+
+      <ul class="projects-grid">
+
+        <!-- Project 1: Resume API -->
+        <li>
+          <figure class="project-mockup">
+            <pre class="mockup-code"><var>POST</var> <kbd>/api/resume</kbd>
+<code>→</code> <samp>200 OK</samp>
+<cite>{ "resume": "..." }</cite></pre>
+            <figcaption class="project-overlay">
+              <a href="https://github.com/Unishkabisht/resume-api" target="_blank"><i class="fab fa-github"></i> Code</a>
+            </figcaption>
+          </figure>
+          <article class="project-info">
+            <aside class="project-meta">
+              <data><i class="fab fa-js"></i> JavaScript</data>
+              <data><i class="fas fa-star"></i> 2</data>
+            </aside>
+            <h3>Resume API</h3>
+            <p>REST API backend for an AI Resume Builder — built with Node.js and Express.js. Handles resume generation, parsing, and delivery.</p>
+            <footer class="project-tags">
+              <kbd>Node.js</kbd><kbd>Express</kbd><kbd>REST API</kbd>
+            </footer>
+          </article>
+        </li>
+
+        <!-- Project 2: ResumeFlow Landing -->
+        <li>
+          <figure class="project-mockup">
+            <pre class="mockup-code"><kbd>ResumeFlow</kbd>
+<samp>━━━━━━━━━━━━━━━━━━━━</samp>
+<cite>■ ■ ■  Feature Cards</cite>
+<cite>Build · Deploy · Ship</cite></pre>
+            <figcaption class="project-overlay">
+              <a href="https://resumeflow-landingpage.vercel.app" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+              <a href="https://github.com/Unishkabisht/resumeflow-landingpage" target="_blank" class="ghost"><i class="fab fa-github"></i> Code</a>
+            </figcaption>
+          </figure>
+          <article class="project-info">
+            <aside class="project-meta">
+              <data><i class="fab fa-html5"></i> HTML</data>
+              <data class="live"><i class="fas fa-circle"></i> Live</data>
+            </aside>
+            <h3>ResumeFlow Landing</h3>
+            <p>Responsive landing page for a fictional resume builder with hero, stats, features, templates and testimonials. Clean dark theme.</p>
+            <footer class="project-tags">
+              <kbd>HTML</kbd><kbd>CSS</kbd><kbd>JavaScript</kbd>
+            </footer>
+          </article>
+        </li>
+
+        <!-- Project 3: Creating Resume -->
+        <li>
+          <figure class="project-mockup">
+            <pre class="mockup-code"><kbd>Resume Builder</kbd>
+<samp>┌──────────────────┐</samp>
+<cite>│ Name: __________ │</cite>
+<cite>│ Skills: ________ │</cite>
+<samp>└──────────────────┘</samp></pre>
+            <figcaption class="project-overlay">
+              <a href="https://creating-resume-zeta.vercel.app" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+              <a href="https://github.com/Unishkabisht/creating-resume" target="_blank" class="ghost"><i class="fab fa-github"></i> Code</a>
+            </figcaption>
+          </figure>
+          <article class="project-info">
+            <aside class="project-meta">
+              <data><i class="fab fa-html5"></i> HTML</data>
+              <data class="live"><i class="fas fa-circle"></i> Live</data>
+            </aside>
+            <h3>Creating Resume</h3>
+            <p>A beautifully crafted resume builder interface with live preview capabilities. Deployed on Vercel.</p>
+            <footer class="project-tags">
+              <kbd>HTML</kbd><kbd>CSS</kbd><kbd>Vercel</kbd>
+            </footer>
+          </article>
+        </li>
+
+        <!-- Project 4: GuessMaster -->
+        <li>
+          <figure class="project-mockup">
+            <pre class="mockup-code">
+  <var>?</var>  Guess the Number  <var>?</var>
+
+     <kbd>  42  </kbd>
+
+      <samp>Too Low!</samp></pre>
+            <figcaption class="project-overlay">
+              <a href="https://unishkabisht.github.io/guessmaster/" target="_blank"><i class="fas fa-gamepad"></i> Play</a>
+              <a href="https://github.com/Unishkabisht/guessmaster" target="_blank" class="ghost"><i class="fab fa-github"></i> Code</a>
+            </figcaption>
+          </figure>
+          <article class="project-info">
+            <aside class="project-meta">
+              <data><i class="fab fa-html5"></i> HTML</data>
+              <data class="live"><i class="fas fa-circle"></i> Live</data>
+            </aside>
+            <h3>GuessMaster</h3>
+            <p>Browser-based number guessing game with interactive gradient UI. Built with vanilla HTML, CSS, and JavaScript.</p>
+            <footer class="project-tags">
+              <kbd>HTML</kbd><kbd>CSS</kbd><kbd>JS</kbd><kbd>Game</kbd>
+            </footer>
+          </article>
+        </li>
+
+        <!-- Project 5: Dev Learning Journal -->
+        <li>
+          <figure class="project-mockup">
+            <pre class="mockup-code"><kbd>📖</kbd> <samp>Learning Journal</samp>
+
+<cite>HTML → CSS → JS</cite>
+<cite>DOM · APIs · Objects</cite></pre>
+            <figcaption class="project-overlay">
+              <a href="https://github.com/Unishkabisht/dev-learning-journal" target="_blank"><i class="fab fa-github"></i> Code</a>
+            </figcaption>
+          </figure>
+          <article class="project-info">
+            <aside class="project-meta">
+              <data><i class="fas fa-book"></i> Docs</data>
+            </aside>
+            <h3>Dev Learning Journal</h3>
+            <p>Structured collection of full-stack learning notes — HTML, CSS, JavaScript DOM, functions, events, objects, arrays, and API fundamentals.</p>
+            <footer class="project-tags">
+              <kbd>Documentation</kbd><kbd>Full Stack</kbd><kbd>Learning</kbd>
+            </footer>
+          </article>
+        </li>
+
+        <!-- Project 6: LeetCode Work -->
+        <li>
+          <figure class="project-mockup">
+            <pre class="mockup-code"><var>#include</var> <kbd>&lt;bits/stdc++.h&gt;</kbd>
+<code>int</code> <samp>solve</samp><cite>() {</cite>
+<cite>  // DSA Magic</cite>
+<cite>}</cite></pre>
+            <figcaption class="project-overlay">
+              <a href="https://github.com/Unishkabisht/leetcode_work" target="_blank"><i class="fab fa-github"></i> Code</a>
+            </figcaption>
+          </figure>
+          <article class="project-info">
+            <aside class="project-meta">
+              <data><i class="fas fa-code"></i> C++</data>
+            </aside>
+            <h3>LeetCode Work</h3>
+            <p>LeetCode solutions auto-synced via LeetCodeHub. Covers Data Structures, Algorithms and coding interview practice.</p>
+            <footer class="project-tags">
+              <kbd>C++</kbd><kbd>DSA</kbd><kbd>Algorithms</kbd>
+            </footer>
+          </article>
+        </li>
+
+      </ul>
+
+      <nav class="projects-cta" style="text-align:center; margin-top:2rem;">
+        <a href="https://github.com/Unishkabisht" target="_blank" class="btn-secondary">
+          <i class="fab fa-github"></i> View All on GitHub
+        </a>
+      </nav>
+    </article>
+  </section>
+
+  <!-- ═══════════════════ RESUME ═══════════════════ -->
+  <section id="resume">
+    <article class="section-inner reveal">
+      <small class="section-label">Credentials</small>
+      <h2 class="section-title">My <em>Resume</em></h2>
+
+      <article class="resume-layout">
+
+        <!-- Left Column -->
+        <main>
+          <section class="resume-block">
+            <hgroup class="resume-header">
+              <i class="fas fa-graduation-cap"></i>
+              <h3>Education</h3>
+            </hgroup>
+            <ol class="timeline">
+              <li>
+                <h4>Bachelor of Computer Applications (BCA)</h4>
+                <p>Currently Pursuing</p>
+                <time datetime="2024"><i class="fas fa-calendar"></i> 2024 – Present</time>
+                <p>Focused on core computer science fundamentals, web technologies, and software development practices.</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="resume-block">
+            <hgroup class="resume-header">
+              <i class="fas fa-briefcase"></i>
+              <h3>Experience</h3>
+            </hgroup>
+            <ol class="timeline">
+              <li>
+                <h4>Full Stack Developer Intern</h4>
+                <p>Self-directed / Project-based Learning</p>
+                <time datetime="2024"><i class="fas fa-calendar"></i> 2024 – Present</time>
+                <p>Building and shipping real-world projects — from responsive landing pages to REST API backends. Maintaining a public learning journal and contributing to open source.</p>
+              </li>
+            </ol>
+          </section>
+        </main>
+
+        <!-- Right Column -->
+        <aside>
+          <section class="resume-block">
+            <hgroup class="resume-header">
+              <i class="fas fa-trophy"></i>
+              <h3>Achievements</h3>
+            </hgroup>
+            <ul class="achievements-list">
+              <li>
+                <i class="fas fa-rocket"></i>
+                <article>
+                  <h4>Shipped 3+ Live Projects</h4>
+                  <p>Deployed on Vercel &amp; GitHub Pages with real-world functionality</p>
+                </article>
+              </li>
+              <li>
+                <i class="fab fa-github"></i>
+                <article>
+                  <h4>11 Public Repositories</h4>
+                  <p>Covering frontend, backend, DSA &amp; learning documentation</p>
+                </article>
+              </li>
+              <li>
+                <i class="fas fa-code"></i>
+                <article>
+                  <h4>Active LeetCode Practitioner</h4>
+                  <p>Solving DSA problems in C++ — synced via LeetCodeHub</p>
+                </article>
+              </li>
+              <li>
+                <i class="fas fa-book-open"></i>
+                <article>
+                  <h4>Public Learning Journal</h4>
+                  <p>Documenting full-stack concepts from scratch for the community</p>
+                </article>
+              </li>
+            </ul>
+          </section>
+
+          <section class="resume-block">
+            <hgroup class="resume-header">
+              <i class="fas fa-star"></i>
+              <h3>Core Strengths</h3>
+            </hgroup>
+            <ul class="strengths-grid">
+              <li><i class="fas fa-puzzle-piece"></i> Problem Solving</li>
+              <li><i class="fas fa-pencil-ruler"></i> UI Design Sense</li>
+              <li><i class="fas fa-book"></i> Documentation</li>
+              <li><i class="fas fa-sync"></i> Fast Learner</li>
+              <li><i class="fas fa-users"></i> Collaboration</li>
+              <li><i class="fas fa-lightbulb"></i> Curiosity-Driven</li>
+            </ul>
+          </section>
+        </aside>
+
+      </article>
+
+      <nav style="text-align:center; margin-top:2rem;">
+        <a href="https://github.com/Unishkabisht" target="_blank" class="btn-primary">
+          <i class="fab fa-github"></i> View GitHub Profile
+        </a>
+      </nav>
+    </article>
+  </section>
+
+  <!-- ═══════════════════ CONTACT ═══════════════════ -->
+  <section id="contact">
+    <article class="section-inner reveal">
+      <small class="section-label">Get In Touch</small>
+      <h2 class="section-title">Let's <em>Connect</em></h2>
+      <p class="section-subtitle">Have a project idea, an opportunity, or just want to say hello? My inbox is always open.</p>
+
+      <article class="contact-grid">
+
+        <address class="contact-card">
+          <img src="assets/profile.jpg" alt="Unishka Bisht" />
+          <h3>Unishka Bisht</h3>
+          <p>BCA Student · Web Developer · Builder</p>
+
+          <nav class="contact-links">
+            <a href="https://github.com/Unishkabisht" target="_blank">
+              <i class="fab fa-github link-icon"></i>
+              <strong>GitHub<em>github.com/Unishkabisht</em></strong>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/unishka-bisht-46b7b2400/" target="_blank">
+              <i class="fab fa-linkedin-in link-icon linkedin"></i>
+              <strong>LinkedIn<em>linkedin.com/in/unishka-bisht</em></strong>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&to=unishkabisht@gmail.com&su=Hello+Unishka+%E2%80%93+Let%27s+Connect" target="_blank">
+              <i class="fas fa-envelope link-icon mail"></i>
+              <strong>Email<em>unishkabisht@gmail.com</em></strong>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </nav>
+        </address>
+
+
+      </article>
+    </article>
+  </section>
+
+  <!-- ═══════════════════ FOOTER ═══════════════════ -->
+  <footer id="footer">
+    <h2>UB</h2>
+    <p class="tagline">Crafted with <ins>♥</ins> by Unishka Bisht</p>
+    <nav>
+      <a href="https://github.com/Unishkabisht" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/unishka-bisht-46b7b2400/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    </nav>
+    <p class="copyright">© 2026 Unishka Bisht. All rights reserved.</p>
+  </footer>
+
+  <!-- ═══════════════════ BACK TO TOP ═══════════════════ -->
+  <button id="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+  <!-- ═══════════════════ JAVASCRIPT ═══════════════════ -->
+  <script src="js/main.js" defer></script>
+
+</body>
+</html>
